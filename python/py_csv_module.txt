@@ -1,0 +1,16 @@
+import csv
+
+
+with open('nazwa pliku','typ otwarcia') as zmienna_1r :
+	zmienna_2r = csv.reader(zmienna_1r) 		czytanie pliku csv. Wypisujemy pętlą po linijce
+
+
+
+with open('nazwa pliku','typ otwarcia') as zmienna_1w :
+	zmienna_2w = writer.csv('zmienna_1w', delimiter = '\t') 	delimiter określa znak dzielący elementy pliku csv. może być tab, pauza, przecinek itd
+
+csv.DictReader(zmienna)
+fieldlines = ['index_1','index_2']
+csv.DictWriter(zmienna,fieldnames=fieldnames,delimiter=',')
+
+del - usuwa
