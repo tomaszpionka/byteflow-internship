@@ -1,11 +1,11 @@
 def fibonacci(n):
     a = 0
     b = 1
-    print(a)
-    for i in range(0,n):
-        print(b)
+    for _ in range(0, n):
+        print(a)
         b += a
         a = b - a
+
 
 num = 10
 fibonacci(num)
