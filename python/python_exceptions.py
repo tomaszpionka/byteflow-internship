@@ -5,5 +5,5 @@ except FileNotFoundError:
 
 try:
     var = bad_var
-except Exception:
+except NameError:
     print('Variable not found')
