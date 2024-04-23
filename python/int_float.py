@@ -10,7 +10,7 @@ print(num)
 
 print(abs(-3))  # Absolute value
 
-print(round(3.75, 1))
+print(round(3.75, 1))  # Round numbers
 
 num_1 = int('100')
 num_2 = int('200')
