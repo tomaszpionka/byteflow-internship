@@ -1,6 +1,0 @@
-Sortowanie listy
-list = [4,2,7,3,2,7,9,]
-s_list = sorted(list)
-
-list.sort()
-list.sort(reverse=True)
