@@ -1,19 +1,14 @@
-# Floor division
-print(3 // 2)
+print(3 // 2)  # Floor division
 
-# Exponent
-print(3 ** 2)
+print(3 ** 2)  # Exponent
 
-# Operations order
-print(3 * (2 + 1))
+print(3 * (2 + 1))  # Operations order
 
-# Incrementation
-num = 1
+num = 1  # Incrementation
 num += 1
 print(num)
 
-# Absolute value
-print(abs(-3))
+print(abs(-3))  # Absolute value
 
 print(round(3.75, 1))
 

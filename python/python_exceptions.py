@@ -1,7 +1,9 @@
 try:
     f = open('not_found.txt')
-    var = bad_var
 except FileNotFoundError:
     print('Sorry. This file does not exist')
+
+try:
+    var = bad_var
 except Exception:
-    print('Sorry. Something went wrong')
+    print('Variable not found')
